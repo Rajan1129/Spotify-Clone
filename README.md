@@ -1,2 +1,2 @@
 # Spotify-Clone
-hello guys
+hello guys,here's my spotify clone project
