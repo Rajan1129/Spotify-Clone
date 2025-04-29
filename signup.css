@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=lato:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.logo img{
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 31%;
+    justify-content: center;
+    filter: invert(1);
+    background: white;
+    cursor: pointer;
+}
+.heading{
+    color: white;
+    position: relative;
+    top: 210px;
+    left: 27%;
+}
+.signup button{
+    position: relative;
+    top: 220px;
+    left: 23%;
+    background-color: #28a757;
+    border: 5px solid #28a757;
+    border-radius: 30px;
+    padding: 5px 120px;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.signup button a{
+    color: white;
+    background: none;
+    text-decoration: none;
+}
+.signup button:hover{
+    background-color: grey;
+    border:5px solid grey;
+}
+.signup button a:hover{
+    background-color: grey;
+}
+.buttons button{
+    position: relative;
+    top: 220px;
+    left: 23%;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid rgb(172, 168, 168);
+    padding: 8px 100px;
+    margin: 5px 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.buttons button a{
+    color: white;
+    background: none;
+    text-decoration: none;
+}
+
+.login{
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 240px;
+    left: 32%;
+}
+.login:hover{
+    color: rgb(170, 165, 165);
+}
+.buttons button img{
+    position: absolute;
+    left: 10px;
+    top: 6px;
+}
+.buttons button:hover{
+    background-color: grey;
+}
+@media (max-width: 310px) {
+    .logo img{
+        left: 40%;
+    }
+    h2{
+        left: 60%;
+    }
+
+}
